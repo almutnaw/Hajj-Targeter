@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E68BDE61211344D3007DC94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE60211344D3007DC94D /* AppDelegate.swift */; };
+		E68BDE63211344D3007DC94D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE62211344D3007DC94D /* ViewController.swift */; };
+		E68BDE66211344D3007DC94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68BDE64211344D3007DC94D /* Main.storyboard */; };
+		E68BDE69211344D3007DC94D /* ibeacon_Reciever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE67211344D3007DC94D /* ibeacon_Reciever.xcdatamodeld */; };
+		E68BDE6B211344D3007DC94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68BDE6A211344D3007DC94D /* Assets.xcassets */; };
+		E68BDE6E211344D3007DC94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68BDE6C211344D3007DC94D /* LaunchScreen.storyboard */; };
+		E68BDE7721134C00007DC94D /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE7621134C00007DC94D /* UINavigationControllerExtension.swift */; };
+		E68BDE7921134C29007DC94D /* UITabBarControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE7821134C29007DC94D /* UITabBarControllerExtension.swift */; };
+		E68BDE7B21134CD6007DC94D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE7A21134CD6007DC94D /* Configuration.swift */; };
+		E68BDE7D21134F4C007DC94D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68BDE7C21134F4C007DC94D /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E68BDE5D211344D3007DC94D /* ibeacon Reciever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ibeacon Reciever.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68BDE60211344D3007DC94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E68BDE62211344D3007DC94D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E68BDE65211344D3007DC94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E68BDE68211344D3007DC94D /* ibeacon_Reciever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ibeacon_Reciever.xcdatamodel; sourceTree = "<group>"; };
+		E68BDE6A211344D3007DC94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E68BDE6D211344D3007DC94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E68BDE6F211344D3007DC94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68BDE7621134C00007DC94D /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		E68BDE7821134C29007DC94D /* UITabBarControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarControllerExtension.swift; sourceTree = "<group>"; };
+		E68BDE7A21134CD6007DC94D /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		E68BDE7C21134F4C007DC94D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E68BDE5A211344D3007DC94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E68BDE54211344D2007DC94D = {
+			isa = PBXGroup;
+			children = (
+				E68BDE5F211344D3007DC94D /* ibeacon Reciever */,
+				E68BDE5E211344D3007DC94D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E68BDE5E211344D3007DC94D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E68BDE5D211344D3007DC94D /* ibeacon Reciever.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E68BDE5F211344D3007DC94D /* ibeacon Reciever */ = {
+			isa = PBXGroup;
+			children = (
+				E68BDE7521134BD9007DC94D /* Excentions */,
+				E68BDE60211344D3007DC94D /* AppDelegate.swift */,
+				E68BDE62211344D3007DC94D /* ViewController.swift */,
+				E68BDE64211344D3007DC94D /* Main.storyboard */,
+				E68BDE6A211344D3007DC94D /* Assets.xcassets */,
+				E68BDE6C211344D3007DC94D /* LaunchScreen.storyboard */,
+				E68BDE6F211344D3007DC94D /* Info.plist */,
+				E68BDE67211344D3007DC94D /* ibeacon_Reciever.xcdatamodeld */,
+				E68BDE7A21134CD6007DC94D /* Configuration.swift */,
+			);
+			path = "ibeacon Reciever";
+			sourceTree = "<group>";
+		};
+		E68BDE7521134BD9007DC94D /* Excentions */ = {
+			isa = PBXGroup;
+			children = (
+				E68BDE7621134C00007DC94D /* UINavigationControllerExtension.swift */,
+				E68BDE7821134C29007DC94D /* UITabBarControllerExtension.swift */,
+				E68BDE7C21134F4C007DC94D /* UIColorExtension.swift */,
+			);
+			path = Excentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E68BDE5C211344D3007DC94D /* ibeacon Reciever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68BDE72211344D3007DC94D /* Build configuration list for PBXNativeTarget "ibeacon Reciever" */;
+			buildPhases = (
+				E68BDE59211344D3007DC94D /* Sources */,
+				E68BDE5A211344D3007DC94D /* Frameworks */,
+				E68BDE5B211344D3007DC94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ibeacon Reciever";
+			productName = "ibeacon Reciever";
+			productReference = E68BDE5D211344D3007DC94D /* ibeacon Reciever.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E68BDE55211344D2007DC94D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Nawwaf;
+				TargetAttributes = {
+					E68BDE5C211344D3007DC94D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E68BDE58211344D2007DC94D /* Build configuration list for PBXProject "ibeacon Reciever" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E68BDE54211344D2007DC94D;
+			productRefGroup = E68BDE5E211344D3007DC94D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E68BDE5C211344D3007DC94D /* ibeacon Reciever */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E68BDE5B211344D3007DC94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68BDE6E211344D3007DC94D /* LaunchScreen.storyboard in Resources */,
+				E68BDE6B211344D3007DC94D /* Assets.xcassets in Resources */,
+				E68BDE66211344D3007DC94D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E68BDE59211344D3007DC94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68BDE7B21134CD6007DC94D /* Configuration.swift in Sources */,
+				E68BDE7D21134F4C007DC94D /* UIColorExtension.swift in Sources */,
+				E68BDE63211344D3007DC94D /* ViewController.swift in Sources */,
+				E68BDE61211344D3007DC94D /* AppDelegate.swift in Sources */,
+				E68BDE7921134C29007DC94D /* UITabBarControllerExtension.swift in Sources */,
+				E68BDE69211344D3007DC94D /* ibeacon_Reciever.xcdatamodeld in Sources */,
+				E68BDE7721134C00007DC94D /* UINavigationControllerExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E68BDE64211344D3007DC94D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E68BDE65211344D3007DC94D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E68BDE6C211344D3007DC94D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E68BDE6D211344D3007DC94D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E68BDE70211344D3007DC94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E68BDE71211344D3007DC94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E68BDE73211344D3007DC94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XLERY437P;
+				INFOPLIST_FILE = "ibeacon Reciever/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almutnaw.ibeacon-Reciever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E68BDE74211344D3007DC94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XLERY437P;
+				INFOPLIST_FILE = "ibeacon Reciever/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.almutnaw.ibeacon-Reciever";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E68BDE58211344D2007DC94D /* Build configuration list for PBXProject "ibeacon Reciever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68BDE70211344D3007DC94D /* Debug */,
+				E68BDE71211344D3007DC94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68BDE72211344D3007DC94D /* Build configuration list for PBXNativeTarget "ibeacon Reciever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E68BDE73211344D3007DC94D /* Debug */,
+				E68BDE74211344D3007DC94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E68BDE67211344D3007DC94D /* ibeacon_Reciever.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E68BDE68211344D3007DC94D /* ibeacon_Reciever.xcdatamodel */,
+			);
+			currentVersion = E68BDE68211344D3007DC94D /* ibeacon_Reciever.xcdatamodel */;
+			path = ibeacon_Reciever.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E68BDE55211344D2007DC94D /* Project object */;
+}
