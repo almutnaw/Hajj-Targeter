@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WatchBrodcast" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Brodcast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vz-mu-oM1">
+                                <rect key="frame" x="87.5" y="117" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="WF9-5c-DGx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB8-6U-N6y">
+                                <rect key="frame" x="96.5" y="314" width="182" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="stb-7t-h1N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Start Brodcasting"/>
+                                <connections>
+                                    <action selector="broadcastBeaconWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QpH-c2-qEd"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="9Rs-M0-adI">
+                                <rect key="frame" x="123" y="411" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9Rs-M0-adI" secondAttribute="height" multiplier="1:1" id="B06-pL-jMF"/>
+                                    <constraint firstAttribute="width" constant="128" id="KI6-N7-JwQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Rs-M0-adI" firstAttribute="top" secondItem="VB8-6U-N6y" secondAttribute="bottom" constant="58" id="DWr-BS-uiO"/>
+                            <constraint firstItem="9Rs-M0-adI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HXB-7H-NSM"/>
+                            <constraint firstItem="VB8-6U-N6y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P90-KK-I5t"/>
+                            <constraint firstItem="VB8-6U-N6y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SdS-Ca-l4T"/>
+                            <constraint firstItem="7vz-mu-oM1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VDB-6z-pfi"/>
+                            <constraint firstItem="7vz-mu-oM1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="97" id="c57-Dl-7Tu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="statusLabel" destination="7vz-mu-oM1" id="CGs-KK-8sY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="1024" height="1024"/>
+    </resources>
+</document>
